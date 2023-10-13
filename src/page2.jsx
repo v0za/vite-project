@@ -9,8 +9,8 @@ function Page2() {
   return (
     <div>
           <ParallaxLayer offset={0.9999} speed={1.5} style={{ zIndex: 0, backgroundImage: `url(${title})`, backgroundSize: 'cover' }}/>
-          <ParallaxLayer offset={0.9999} speed={1.5} style={{ zIndex: 1, backgroundImage: `url(${images})`, backgroundSize: 'contain', right: '50px' }}/>
-          <ParallaxLayer offset={0.9999} speed={1.5} style={{ zIndex: 1, backgroundImage: `url(${temp})`, backgroundSize: 'cover' }}/>
+          <ParallaxLayer offset={0.9999} speed={1.5} style={{ zIndex: 1, backgroundImage: `url(${images})`, backgroundSize: 'contain' }}/>
+          <ParallaxLayer offset={0.9999} speed={1.5} style={{ zIndex: 1, backgroundImage: `url(${temp})`, backgroundSize: 'contain' }}/>
 
     </div>
   )

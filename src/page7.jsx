@@ -7,7 +7,7 @@ function Page7() {
     <div>
         <ParallaxLayer offset={3} speed={1.5} style={{ zIndex: 0, backgroundColor: '#0028ff' }}>
         <div className="chicken-coop">
-        <h1>THE CHICKEN DffOOP</h1>
+        <h1>TEMP</h1>
         </div>
         </ParallaxLayer>
   </div>
